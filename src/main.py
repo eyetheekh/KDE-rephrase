@@ -403,7 +403,7 @@ class MainWindow(QMainWindow):
 
 
 def _build_tray(window: "MainWindow") -> QSystemTrayIcon:
-    icon = QIcon.fromTheme("edit-copy", QIcon.fromTheme("dialog-information"))
+    icon = QIcon.fromTheme("document-edit", QIcon.fromTheme("dialog-information"))
     tray = QSystemTrayIcon(icon, window)
     tray.setToolTip("Rephrase — running")
 
